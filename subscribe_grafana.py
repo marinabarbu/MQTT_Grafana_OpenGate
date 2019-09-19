@@ -16,7 +16,7 @@ def main():
     topic = 'odsi/raspberry/marina_barbu'
     while True:
         subscribe.callback(on_message_print,topic, hostname=MQTT_server, port=MQTT_port)
-        time.sleep(5)
+        #time.sleep(5)
 
 if __name__ == '__main__':
     main()

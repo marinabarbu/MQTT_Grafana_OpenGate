@@ -1,7 +1,8 @@
 import paho.mqtt.client as mqtt
 
-topic = 'meshliumfa30/WINSHI/#'
+#topic = 'meshliumfa30/WINSHI/#'
 #topic = 'odsi/raspberry/marina_barbu'
+topic = 'meshliumfa30/GAS_WiFi/#'
 
 def on_connect(client, userdata, flags, rc):
     print("Connect with Code: ", str(rc))
